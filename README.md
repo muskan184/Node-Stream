@@ -3,7 +3,8 @@ They allow data to be processed piece-by-piece (in chunks) instead of waiting fo
 This makes streams efficient for tasks like reading files, network operations, or any operation where large data sets are involved.
 
 <h1>🔑Key Characteristics of Streams:</h1>
-Asynchronous:
+
+<pre>Asynchronous:
 Streams process data asynchronously, enabling non-blocking I/O operations.
 
 Chunk-Based:
@@ -24,4 +25,4 @@ Duplex Streams: For both reading and writing data (e.g., sockets).
 Example: net.Socket
 
 Transform Streams: A special type of Duplex Stream that can modify or transform data while reading and writing.
-Example: zlib.createGzip
+Example: zlib.createGzip</pre>
